@@ -1,0 +1,70 @@
+/* empezamos por la parte de la barra de tareas*/
+
+
+
+/* aqui modificamos las imagenes y los div que las contienen*/
+
+.container2{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.imagen1{
+    height: 400px;
+    width: 600px;
+ 
+   
+}
+.imagen2{
+    height: 400px;
+    width: 600px;
+}
+
+.menu1{
+  background-color:whitesmoke;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.img4{
+    position: absolute;
+
+}
+.imagen4{
+    height: 200px;
+    width: 200px;
+
+}
+.principal_container{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   text-align: center;
+   align-content: center;
+   width: 300px;
+}
+.box{
+background-color:rgba(75, 45, 25, 0.479);
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius:  5px;
+  padding: 30px;
+  margin: 25px;
+  width: 100px;
+  height: 90px;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  margin-left:25px ;
+}
+.imagen3{
+    height: 300px;
+    width: 200px;
+    margin-top: 30px;
+    
+}
+.button{
+    margin-left: 310px;
+    height: 40px;
+    width: 190px;
+}
