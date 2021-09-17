@@ -1,97 +1,78 @@
-/* empezamos por la parte de la barra de tareas*/
-
-
-
-/* aqui modificamos las imagenes y los div que las contienen*/
-
-.container2{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.imagen1{
-    height: 400px;
-    width: 600px;
- 
-   
-}
-.imagen2{
-    height: 400px;
-    width: 600px;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.menu1{
-  padding: 40px;
-  background-color:whitesmoke;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    flex-wrap:wrap;
-}
-.img4{
-    position: absolute;
+.principalContainer{
+    background-color: lightgray;
+    width: 100%;
+    }
 
-}
-.imagen4{
-    height: 200px;
-    width: 200px;
-
-}
-.principal_container{
-    display: flex;
-    flex-wrap: wrap;
-   align-items: center;
-   text-align: center;
-   align-content: center;
-   width: 300px;
-}
-.box{
-background-color:rgba(75, 45, 25, 0.479);
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  border-radius:  5px;
-  padding: 30px;
-  margin: 25px;
-  width: 100px;
-  height: 90px;
-  align-items: center;
-  text-align: center;
-  align-content: center;
-  margin-left:25px ;
-}
-.imagen3{
-    height: 300px;
-    width: 200px;
-    margin-top: 30px;
+header{
+    background-color: maroon;
+    width: 100%;
+    height:100px;
     
 }
-.button{
-    margin-left: 310px;
-    height: 40px;
-    width: 190px;
+
+
+.logo img{
+    height: 70px;
+    width: 80px;
 }
 
-#Logo{
-    height: 100px;
-    width: 100px;
-    margin-top: 30px;
-
+ul li{
+    padding: 0px;
+    margin-left: 5px;
+    list-style: none;
+    float:left
+    
 }
 
-.imagen5{
-    height: 400px;
-    width: 700px;
-    margin-top: 30px;
+nav a{
+    
+    width: 100%;
+    padding:10px 10px;
+    text-align: left;
+    overflow: auto;
+    line-height: 80px;
+    color:gray;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.img5{
-    position: center;
-    padding-left: 20%; /* Utilizado momentaneamente para centrar la imagen */
+nav a:hover{
+    text-transform: uppercase;
+    color:lightgray;
 }
 
-.imgMin{
-    height: 100px;
-    width: 90px;
-    margin-left: -10px;
-    margin-top:-35px ;
-
+section{
+    padding: 20px;
 }
+@media screen and(max-width:750px) {
+    header nav {
+        width:80%;
+        height:100%;
+        margin:0px;
+        position: fixed;
+    }
+
+    header nav ul li{
+        display: blok;
+        float: none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+    
+}
+
+.clearfix{
+    clear:both;
+}
+
+
+  .carousel-inner img{
+      width: 80%;
+      max-height: fit-content;
+      object-fit: cover;
+      object-position: center center;
+  }
